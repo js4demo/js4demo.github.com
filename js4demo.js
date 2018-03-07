@@ -17,9 +17,10 @@ j4d.dir=[] // keep diretory of reference for each instance here
 
 j4d.UI=function(jd){
     var h = '<h1 style="color:green"><i id="js4demoIcon" class="fa fa-pagelines" aria-hidden="true" style="font-size:50;cursor:pointer"></i> js4demo</h3>'
-    h += '<p id="js4demoSubtitle" style="font-style:italic;color:green">JavaScript utilities for distributed direct Democracy</p><hr>'
+    h += '<p id="js4demoSubtitle" style="font-style:italic;color:green">JavaScript utilities for distributed direct Democracy <i id="js4demoWiki" class="fa fa-book" aria-hidden="true" style="font-size:large;cursor:pointer;color:blue"></i></p><hr>'
     jd.div.innerHTML=h
     js4demoIcon.onclick=function(){window.open('https://github.com/js4demo')}
+    js4demoWiki.onclick=function(){window.open('https://github.com/js4demo/js4demo.github.com/wiki')}
     4
 
     //debugger
