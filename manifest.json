@@ -1,0 +1,11 @@
+{
+  "lang": "en",
+  "name": "JavaScript for Direct Democracy",
+  "short_name": "js4demo",
+  "icons": [{
+        "src": "tree.png",
+        "sizes": "278x278"
+      }],
+  "start_url": "https://js4demo.github.io/",
+  "display": "fullscreen"
+}
